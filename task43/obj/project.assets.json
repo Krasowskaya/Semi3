@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbook/Desktop/s4/task36/task36.csproj",
+      "projectUniqueName": "/Users/macbook/Desktop/s4/task43/task36.csproj",
       "projectName": "task36",
-      "projectPath": "/Users/macbook/Desktop/s4/task36/task36.csproj",
+      "projectPath": "/Users/macbook/Desktop/s4/task43/task36.csproj",
       "packagesPath": "/Users/macbook/.nuget/packages/",
-      "outputPath": "/Users/macbook/Desktop/s4/task36/obj/",
+      "outputPath": "/Users/macbook/Desktop/s4/task43/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbook/.nuget/NuGet/NuGet.Config"

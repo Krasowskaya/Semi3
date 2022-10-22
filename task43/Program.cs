@@ -6,18 +6,15 @@
 Console.Clear();
 
 Console.WriteLine("Введите координаты b1: ");
-int b1 = Convert.ToInt32(Console.ReadLine());
+double b1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координаты k1: ");
-int k1 = Convert.ToInt32(Console.ReadLine());
+double k1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координаты b2: ");
-int b2 = Convert.ToInt32(Console.ReadLine());
+double b2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координаты k2: ");
-int k2 = Convert.ToInt32(Console.ReadLine());
+double k2 = Convert.ToInt32(Console.ReadLine());
 
-double x1 = b2 - b1;
-double x2 = k1 - k2;
-double x = x1/x2;
-// double x = (b2 - b1)/(k1 - k2);
+double x = (b2 - b1)/(k1 - k2);
 double y = k1 * x + b1;
 double[] tochka = {x, y};
 Console.WriteLine($"Координаты точки перeсечения:({string.Join(", ", tochka)})");
